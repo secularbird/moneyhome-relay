@@ -31,7 +31,6 @@ FEEDS = {
     "google_business_cn.json": {"source": "Google 新闻商业(中文)", "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=zh-CN&gl=CN&ceid=CN:zh-Hans"},
     "guardian_business.json": {"source": "卫报商业", "url": "https://www.theguardian.com/business/rss"},
     "aljazeera.json": {"source": "半岛电视台", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
-    "nyt_business.json": {"source": "纽约时报商业", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"},
     "economist.json": {"source": "经济学人财经", "url": "https://www.economist.com/finance-and-economics/rss.xml"},
     "cna_business.json": {"source": "CNA 商业", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"},
     "dw_business.json": {"source": "DW 商业", "url": "https://rss.dw.com/xml/rss-en-bus"},
