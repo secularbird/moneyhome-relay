@@ -1,0 +1,35 @@
+name: probe
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe sources the server cannot reach
+        run: |
+          python3 - <<'PY'
+          import urllib.request, http.cookiejar, re, json
+          UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          jar = http.cookiejar.CookieJar()
+          op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+          def get(name, url, headers=None, show=140):
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
+                  with op.open(req, timeout=25) as r:
+                      body = r.read(4000).decode("utf-8", "replace")
+                      waf = "_waf_" in body or "renderData" in body
+                      print(f"{name:22} {r.status} waf_challenge={waf} cookies={[c.name for c in jar][:4]} | {re.sub(r'\\s+',' ',body)[:show]}")
+              except Exception as e:
+                  code = getattr(e, "code", "")
+                  print(f"{name:22} FAIL {type(e).__name__} {code} {str(e)[:80]}")
+          get("xueqiu home", "https://xueqiu.com/")
+          get("xueqiu hot listV2", "https://xueqiu.com/statuses/hot/listV2.json?since_id=-1&max_id=-1&size=10", {"Referer": "https://xueqiu.com/"})
+          get("xueqiu public_timeline", "https://xueqiu.com/v4/statuses/public_timeline_by_category.json?since_id=-1&max_id=-1&count=10&category=-1", {"Referer": "https://xueqiu.com/"})
+          get("yahoo gold GC=F", "https://query1.finance.yahoo.com/v8/finance/chart/GC=F?interval=1d&range=5d", show=100)
+          get("stooq xauusd", "https://stooq.com/q/l/?s=xauusd&f=sd2t2ohlcv&h&e=csv", show=100)
+          get("eastmoney push2", "https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=3&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m:0+t:6&fields=f12,f14,f2,f3", show=160)
+          get("eastmoney push2his", "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600000&fields1=f1&fields2=f51,f53&klt=101&fqt=1&end=20500101&lmt=2", show=120)
+          PY
