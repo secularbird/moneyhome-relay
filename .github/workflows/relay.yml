@@ -2,7 +2,9 @@ name: relay
 
 on:
   schedule:
-    - cron: "20 * * * *"        # hourly; the dashboard's news sync runs at :57
+    # Twice an hour and off the top of the hour: GitHub treats schedules as best-effort and delays or skips
+    # them under load, and an hourly :20 cron fired only once in ~10 hours. More chances = fresher data.
+    - cron: "13,43 * * * *"
   workflow_dispatch: {}
 
 permissions:
