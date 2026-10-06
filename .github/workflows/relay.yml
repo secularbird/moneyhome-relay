@@ -32,7 +32,8 @@ jobs:
           git commit -q -m "relay $(date -u +%Y-%m-%dT%H:%MZ)"
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data
       - name: Purge the jsDelivr mirror cache
-        # jsDelivr caches branch files for hours; the server reads it as a mirror, so refresh it. Best effort.
+        # jsDelivr caches branch files for hours; the server reads it as a fallback mirror. Best effort — it was
+        # observed not to refresh branch copies reliably, so the server also checks raw when the mirror is old.
         run: |
           for f in out/*.json; do
             curl -s -m 20 "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/$(basename "$f")" > /dev/null || true
