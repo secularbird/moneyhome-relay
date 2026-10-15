@@ -15,12 +15,16 @@ import re
 import sys
 import time
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
 from xml.etree import ElementTree as ET
 
 FEEDS = {
+    "bls_cpi.json": {"source": "BLS 美国劳工统计局 CPI", "url": "https://www.bls.gov/feed/cpi.rss", "max_age_days": 45},
+    "bls_ppi.json": {"source": "BLS 美国劳工统计局 PPI", "url": "https://www.bls.gov/feed/ppi.rss", "max_age_days": 45},
+    "bls_jobs.json": {"source": "BLS 美国劳工统计局就业", "url": "https://www.bls.gov/feed/empsit.rss", "max_age_days": 45},
+    "euronews_business.json": {"source": "Euronews 商业", "url": "https://www.euronews.com/rss?format=mrss&level=vertical&name=business", "max_age_days": 7},
     "scmp.json": {"source": "南华早报 SCMP", "url": "https://www.scmp.com/rss/2/feed"},
     "nikkei.json": {"source": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar"},
     "bbc_business.json": {"source": "BBC 商业", "url": "https://feeds.bbci.co.uk/news/business/rss.xml"},
@@ -107,8 +111,20 @@ def fetch(url: str, attempts: int = 2) -> bytes:
 def _one(name: str, cfg: dict):
     try:
         items = parse_feed(fetch(cfg["url"]))
+        if cfg.get("max_age_days"):
+            now = datetime.now(timezone.utc)
+            cutoff = now - timedelta(days=cfg["max_age_days"])
+            fresh = []
+            for item in items:
+                stamp = item.get("published_at")
+                if not stamp:
+                    continue
+                dt = datetime.fromisoformat(stamp).replace(tzinfo=timezone.utc)
+                if cutoff <= dt <= now + timedelta(minutes=15):
+                    fresh.append({**item, "published_at": dt.isoformat(timespec="seconds")})
+            items = fresh
         if not items:
-            raise RuntimeError("feed parsed but had no items")
+            raise RuntimeError("feed parsed but had no eligible items")
         return name, items, None
     except Exception as exc:  # noqa: BLE001
         return name, None, exc
