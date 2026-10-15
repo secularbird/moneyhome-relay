@@ -20,10 +20,15 @@ from email.utils import parsedate_to_datetime
 from html import unescape
 from xml.etree import ElementTree as ET
 
-FEEDS = {
+# Verified 2026-10-16: these public feeds return 403 on both production and
+# GitHub-hosted runners. Keep documented, but do not advertise them as live.
+DISABLED_FEEDS = {
     "bls_cpi.json": {"source": "BLS 美国劳工统计局 CPI", "url": "https://www.bls.gov/feed/cpi.rss", "max_age_days": 45},
     "bls_ppi.json": {"source": "BLS 美国劳工统计局 PPI", "url": "https://www.bls.gov/feed/ppi.rss", "max_age_days": 45},
     "bls_jobs.json": {"source": "BLS 美国劳工统计局就业", "url": "https://www.bls.gov/feed/empsit.rss", "max_age_days": 45},
+}
+
+FEEDS = {
     "euronews_business.json": {"source": "Euronews 商业", "url": "https://www.euronews.com/rss?format=mrss&level=vertical&name=business", "max_age_days": 7},
     "scmp.json": {"source": "南华早报 SCMP", "url": "https://www.scmp.com/rss/2/feed"},
     "nikkei.json": {"source": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar"},
