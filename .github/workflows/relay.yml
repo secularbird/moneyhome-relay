@@ -21,6 +21,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Fetch feeds
+        id: fetch
+        continue-on-error: true
         run: python3 relay.py out
       - name: Publish to the data branch
         run: |
@@ -38,3 +40,6 @@ jobs:
           for f in out/*.json; do
             curl -s -m 20 "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/$(basename "$f")" > /dev/null || true
           done
+      - name: Report partial upstream failures
+        if: always() && steps.fetch.outcome == 'failure'
+        run: exit 1

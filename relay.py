@@ -142,16 +142,27 @@ def main(out_dir: str = "out") -> int:
     os.makedirs(out_dir, exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     ok = 0
+    statuses = {}
     with ThreadPoolExecutor(max_workers=8) as ex:                  # blocked feeds wait out their timeout; do not queue them
         for name, items, exc in ex.map(lambda kv: _one(*kv), FEEDS.items()):
             if exc is not None:
                 print(f"FAILED {name}: {exc}", file=sys.stderr)
+                statuses[name] = {"status": "failed", "error": str(exc)[:300]}
+                # Publish an explicit failure, not a missing file (404) or a
+                # stale success from a previous run. Consumers keep their DB cache.
+                with open(os.path.join(out_dir, name), "w", encoding="utf-8") as f:
+                    json.dump({"source": FEEDS[name]["source"], "fetched_at": now,
+                               "status": "failed", "items": []}, f, ensure_ascii=False)
                 continue
             with open(os.path.join(out_dir, name), "w", encoding="utf-8") as f:
                 json.dump({"source": FEEDS[name]["source"], "fetched_at": now, "items": items}, f, ensure_ascii=False, indent=1)
             print(f"ok {name}: {len(items)} items")
             ok += 1
-    return 0 if ok else 1                                           # some feeds down is tolerable; all down is a failed run
+            statuses[name] = {"status": "ok", "item_count": len(items)}
+    with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
+        json.dump({"fetched_at": now, "status": "ok" if ok == len(FEEDS) else "partial",
+                   "feeds": statuses}, f, ensure_ascii=False, indent=1)
+    return 0 if ok == len(FEEDS) else 1
 
 
 if __name__ == "__main__":
