@@ -1,0 +1,74 @@
+{
+ "fetched_at": "2026-10-24T14:05:08Z",
+ "status": "partial",
+ "feeds": {
+  "euronews_business.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "scmp.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "nikkei.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "bbc_business.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "bbc_world.json": {
+   "status": "ok",
+   "item_count": 29
+  },
+  "cnn_money.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "cnn_world.json": {
+   "status": "ok",
+   "item_count": 29
+  },
+  "google_business.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "google_business_cn.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "guardian_business.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "aljazeera.json": {
+   "status": "ok",
+   "item_count": 25
+  },
+  "economist.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "cna_business.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "dw_business.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "wapo_business.json": {
+   "status": "failed",
+   "error": "https://feeds.washingtonpost.com/rss/business: HTTP Error 502: Bad Gateway"
+  },
+  "yahoo_finance.json": {
+   "status": "failed",
+   "error": "https://finance.yahoo.com/news/rssindex: HTTP Error 404: Not Found"
+  },
+  "investing.json": {
+   "status": "ok",
+   "item_count": 10
+  }
+ }
+}
