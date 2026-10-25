@@ -44,6 +44,7 @@ FEEDS = {
     "cna_business.json": {"source": "CNA 商业", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"},
     "dw_business.json": {"source": "DW 商业", "url": "https://rss.dw.com/xml/rss-en-bus"},
     "investing.json": {"source": "Investing.com", "url": "https://www.investing.com/rss/news.rss"},
+    "ft_markets.json": {"source": "FT 金融时报", "url": "https://www.ft.com/rss/markets"},
 }
 MAX_ITEMS = 30
 SUMMARY_CHARS = 160
