@@ -43,8 +43,6 @@ FEEDS = {
     "economist.json": {"source": "经济学人财经", "url": "https://www.economist.com/finance-and-economics/rss.xml"},
     "cna_business.json": {"source": "CNA 商业", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936"},
     "dw_business.json": {"source": "DW 商业", "url": "https://rss.dw.com/xml/rss-en-bus"},
-    "wapo_business.json": {"source": "华盛顿邮报商业", "url": "https://feeds.washingtonpost.com/rss/business"},
-    "yahoo_finance.json": {"source": "Yahoo 财经", "url": "https://finance.yahoo.com/news/rssindex"},
     "investing.json": {"source": "Investing.com", "url": "https://www.investing.com/rss/news.rss"},
 }
 MAX_ITEMS = 30
