@@ -1,0 +1,70 @@
+{
+ "fetched_at": "2026-10-31T21:05:07Z",
+ "status": "ok",
+ "feeds": {
+  "euronews_business.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "scmp.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "nikkei.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "bbc_business.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "bbc_world.json": {
+   "status": "ok",
+   "item_count": 28
+  },
+  "cnn_money.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "cnn_world.json": {
+   "status": "ok",
+   "item_count": 29
+  },
+  "google_business.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "google_business_cn.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "guardian_business.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "aljazeera.json": {
+   "status": "ok",
+   "item_count": 25
+  },
+  "economist.json": {
+   "status": "ok",
+   "item_count": 30
+  },
+  "cna_business.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "dw_business.json": {
+   "status": "ok",
+   "item_count": 20
+  },
+  "investing.json": {
+   "status": "ok",
+   "item_count": 10
+  },
+  "ft_markets.json": {
+   "status": "ok",
+   "item_count": 25
+  }
+ }
+}

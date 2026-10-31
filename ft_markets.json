@@ -1,0 +1,156 @@
+{
+ "source": "FT 金融时报",
+ "fetched_at": "2026-10-31T21:05:07Z",
+ "items": [
+  {
+   "title": "Investors trim growth bets over fears of US economy’s AI exposure",
+   "link": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
+   "summary": "Return to bonds after long sell-off comes as concern rises about over-reliance on tech spending",
+   "published_at": "2026-10-31T14:00:02"
+  },
+  {
+   "title": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+   "link": "https://www.ft.com/content/c7062e37-86fd-45ef-8f58-573de0fcaaf0?syn-25a6b1a6=1",
+   "summary": "Rival venues place ‘additional alerts and restrictions’ on the movement of funds",
+   "published_at": "2026-10-31T10:38:18"
+  },
+  {
+   "title": "Chart of the Week: Bond investors may cheer gridlock",
+   "link": "https://www.ft.com/content/9570b122-5418-41e6-b91b-b95af96ec881?syn-25a6b1a6=1",
+   "summary": "Midterms will have higher stakes for the bond market",
+   "published_at": "2026-10-31T10:30:01"
+  },
+  {
+   "title": "Rating agency Fitch hits France with unscheduled outlook downgrade",
+   "link": "https://www.ft.com/content/852b05a1-4090-4aee-afc6-4d4c353ef3cf?syn-25a6b1a6=1",
+   "summary": "Move comes hours after data showed an unexpected contraction in third-quarter economic output",
+   "published_at": "2026-10-31T09:36:34"
+  },
+  {
+   "title": "US midterms loom over jittery investors",
+   "link": "https://www.ft.com/content/6c099dc6-1fb3-44fc-b011-70229e3755cb?syn-25a6b1a6=1",
+   "summary": "Caution certainly seems warranted for the coming weeks",
+   "published_at": "2026-10-31T05:00:39"
+  },
+  {
+   "title": "Bank of England explores easing key limit on riskier mortgage lending",
+   "link": "https://www.ft.com/content/78363dc1-90fa-4a10-b84a-69be3d749f42?syn-25a6b1a6=1",
+   "summary": "Central bank considers lifting threshold on higher-risk mortgages in response to calls from government and industry to boost home-ownership",
+   "published_at": "2026-10-31T05:00:31"
+  },
+  {
+   "title": "Lula’s surprise election victory sends agri-commodities tumbling",
+   "link": "https://www.ft.com/content/f0ca6771-20a2-4146-bd3f-4796d3c86094?syn-25a6b1a6=1",
+   "summary": "Steep fall in Brazilian real has made the country’s exports more competitive, undermining pricing power for farmers in other countries",
+   "published_at": "2026-10-31T05:00:31"
+  },
+  {
+   "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+   "link": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1",
+   "summary": "ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions",
+   "published_at": "2026-10-31T00:05:08"
+  },
+  {
+   "title": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+   "link": "https://www.ft.com/content/e84eceda-040b-4e5f-b906-09768085933a?syn-25a6b1a6=1",
+   "summary": "North Korean hackers’ attack on Binance takes crypto theft to an unprecedented scale",
+   "published_at": "2026-10-30T22:17:15"
+  },
+  {
+   "title": "Binance rushes to recover customer money after $6.3bn heist",
+   "link": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
+   "summary": "World’s largest crypto exchange says an engineer’s laptop was compromised in major security breach",
+   "published_at": "2026-10-30T22:12:58"
+  },
+  {
+   "title": "US tech stocks tumble as concerns over AI spending intensify",
+   "link": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+   "summary": "Revelations that Anthropic could receive junk rating after IPO add to concerns over industry borrowing spree",
+   "published_at": "2026-10-30T21:13:50"
+  },
+  {
+   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+   "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1",
+   "summary": "Private capital giant says AI group is expected to receive ‘high’ junk rating in shift from previous guidance",
+   "published_at": "2026-10-30T18:19:08"
+  },
+  {
+   "title": "How AI might be deployed for better bank supervision",
+   "link": "https://www.ft.com/content/be6723d6-ab63-41ab-ac46-dc870c449da0?syn-25a6b1a6=1",
+   "summary": "The technology could help tackle some of the cultural issues that contributed to the collapse of SVB",
+   "published_at": "2026-10-30T18:00:05"
+  },
+  {
+   "title": "Apollo and Thrive capitalise on private equity’s generational shift",
+   "link": "https://www.ft.com/content/95480c09-5018-4400-b9c1-f2d53373a47c?syn-25a6b1a6=1",
+   "summary": "By leaning into their new role as debt financiers, the old guard still have a lucrative place in the new financial order",
+   "published_at": "2026-10-30T17:24:07"
+  },
+  {
+   "title": "CD&R pursues buyout of $40bn card processor Global Payments",
+   "link": "https://www.ft.com/content/da16af06-4431-4ced-9c3e-a0753d8c45c9?syn-25a6b1a6=1",
+   "summary": "Deal for US company would rank among largest buyouts in history",
+   "published_at": "2026-10-30T17:10:22"
+  },
+  {
+   "title": "What we know about the $6.3bn Binance hack",
+   "link": "https://www.ft.com/content/58fee10f-8a99-4e8b-835d-ddba5e434ce3?syn-25a6b1a6=1",
+   "summary": "Analysis suggests hackers bypassed standard methods used in crypto thefts",
+   "published_at": "2026-10-30T13:23:45"
+  },
+  {
+   "title": "Partners plans to halve withdrawal limits on strained private equity fund",
+   "link": "https://www.ft.com/content/e42fabdb-2fa1-47ef-a014-9873639c40ae?syn-25a6b1a6=1",
+   "summary": "Swiss firm is under pressure as clients pull their money from its largest US and European funds",
+   "published_at": "2026-10-30T12:38:38"
+  },
+  {
+   "title": "Did Anthropic value itself at $1.2tn in August?",
+   "link": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
+   "summary": "Not quite Navier-Stokes",
+   "published_at": "2026-10-30T12:36:54"
+  },
+  {
+   "title": "Europe’s EV transition accelerates",
+   "link": "https://www.ft.com/content/a6629e05-5afc-403a-b305-67966854c7e3?syn-25a6b1a6=1",
+   "summary": "Carmakers are producing more attractive and affordable models to compete with Chinese rivals",
+   "published_at": "2026-10-30T12:01:02"
+  },
+  {
+   "title": "How North Korea became a hacking superpower",
+   "link": "https://www.ft.com/content/46c03338-63d5-43fc-a946-ebcbe9e1c07a?syn-25a6b1a6=1",
+   "summary": "Cash-strapped state, cut off by sanctions, has invested heavily in cyber warfare to help support itself",
+   "published_at": "2026-10-30T11:20:19"
+  },
+  {
+   "title": "Binance’s $6.3bn heist is the biggest . . . but not the first",
+   "link": "https://www.ft.com/content/95d38ca9-9a70-4982-a797-cdad2afa3acf?syn-25a6b1a6=1",
+   "summary": "Security breach at world’s largest cryptocurrency exchange is latest in wave of digital thefts",
+   "published_at": "2026-10-30T10:50:37"
+  },
+  {
+   "title": "If you think Triple-C bonds are having a rough time . . .",
+   "link": "https://www.ft.com/content/caf2d108-bb04-47ff-bcfa-53cca632c63d",
+   "summary": "Is someone going to need a bigger boat?",
+   "published_at": "2026-10-30T10:44:18"
+  },
+  {
+   "title": "ExxonMobil and Chevron post bumper profits and warn on diesel supplies",
+   "link": "https://www.ft.com/content/e934d2dd-9d6c-4099-95a5-1c300ed28cbb?syn-25a6b1a6=1",
+   "summary": "US oil groups are profiting from soaring refining margins because of Donald Trump’s war in Iran",
+   "published_at": "2026-10-30T10:37:17"
+  },
+  {
+   "title": "French economy shrinks 0.1% in third quarter",
+   "link": "https://www.ft.com/content/6f879bc5-be07-4a66-afea-bcbe73723a9f?syn-25a6b1a6=1",
+   "summary": "Despite weakness in the Eurozone’s second-largest economy, growth in the 21-country bloc was better than expected",
+   "published_at": "2026-10-30T10:07:11"
+  },
+  {
+   "title": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
+   "link": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc?syn-25a6b1a6=1",
+   "summary": "Cash burn at Google, Amazon and Meta leads Wall Street to question price of AI boom",
+   "published_at": "2026-10-30T10:00:02"
+  }
+ ]
+}
