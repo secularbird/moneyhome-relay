@@ -1,0 +1,156 @@
+{
+ "source": "FT 金融时报",
+ "fetched_at": "2026-11-28T14:35:12Z",
+ "items": [
+  {
+   "title": "Argentina loses bid to halt Falklands oil drilling",
+   "link": "https://www.ft.com/content/b9308f74-c823-4144-83ce-7229836bbe59?syn-25a6b1a6=1",
+   "summary": "UN-backed court rejects Javier Milei’s attempt to stymie the islands’ nascent offshore oil industry",
+   "published_at": "2026-11-28T14:07:00"
+  },
+  {
+   "title": "Iran hitting same ships twice to deter traffic from Strait of Hormuz",
+   "link": "https://www.ft.com/content/f9c4da80-cc2c-4b0b-b083-b7acd0337790?syn-25a6b1a6=1",
+   "summary": "At least six vessels have been victims of ‘double tapping’ in the past two months",
+   "published_at": "2026-11-28T05:00:41"
+  },
+  {
+   "title": "How to get more UK money into UK equity markets",
+   "link": "https://www.ft.com/content/71b43a99-b58e-492a-8227-9ea49bec9a5d?syn-25a6b1a6=1",
+   "summary": "A run of US outperformance hasn’t helped, but over five years, the FTSE 100 is up 80 per cent versus 68 per cent for the S&P 500",
+   "published_at": "2026-11-28T05:00:41"
+  },
+  {
+   "title": "Copper thieves prey on Japan’s ancient shrines in AI frenzy",
+   "link": "https://www.ft.com/content/98b72508-3d41-4f03-9a9a-bfb345e3a902?syn-25a6b1a6=1",
+   "summary": "Priests forced to abandon tradition and favour cheaper steel to repair roofs",
+   "published_at": "2026-11-28T01:01:26"
+  },
+  {
+   "title": "US tech stocks rise in latest market swing",
+   "link": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
+   "summary": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings",
+   "published_at": "2026-11-27T20:08:09"
+  },
+  {
+   "title": "Trump’s Nvidia intervention has a cost for US stocks",
+   "link": "https://www.ft.com/content/3318a827-bf20-4826-947d-9327381c3c10?syn-25a6b1a6=1",
+   "summary": "Political meddling has already rubbed some of the gloss off the dollar and US Treasuries. Now it is hitting equities",
+   "published_at": "2026-11-27T18:26:25"
+  },
+  {
+   "title": "AI and the decryption nightmare",
+   "link": "https://www.ft.com/content/4114d053-de5e-46a5-8b46-758726abdcb7?syn-25a6b1a6=1",
+   "summary": "New breakthroughs call for faster upgrades to security, not panic",
+   "published_at": "2026-11-27T18:18:27"
+  },
+  {
+   "title": "Can AI crack encryption?",
+   "link": "https://www.ft.com/content/1a29e62d-b18d-4bad-937d-34f3eae0587a?syn-25a6b1a6=1",
+   "summary": "New models’ advancing capabilities raise concerns over the risks of data leaks in banking and commerce",
+   "published_at": "2026-11-27T18:16:51"
+  },
+  {
+   "title": "EU weighs tighter export controls to prevent battery waste going to China",
+   "link": "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
+   "summary": "‘Black mass’ containing key minerals is often processed abroad and the extracted metals re-exported to Europe",
+   "published_at": "2026-11-27T13:26:26"
+  },
+  {
+   "title": "First principles to cling to when markets convulse",
+   "link": "https://www.ft.com/content/839c7d2c-adad-4e70-9abd-3cd5bdf5e09e?syn-25a6b1a6=1",
+   "summary": "If you haven’t a clue what to do right now, stick to the investment basics",
+   "published_at": "2026-11-27T12:32:08"
+  },
+  {
+   "title": "Indonesia arrests three over alleged ‘deep fried’ market manipulation",
+   "link": "https://www.ft.com/content/50626b00-6d7b-47ac-b1f2-4b150ff9417e?syn-25a6b1a6=1",
+   "summary": "Move follows MSCI’s threat to downgrade country to standalone market status",
+   "published_at": "2026-11-27T10:54:42"
+  },
+  {
+   "title": "92 Labour MPs call for Rosebank oilfield to be rejected",
+   "link": "https://www.ft.com/content/76befc28-cba3-4c9b-bdc3-cced4b304ab1?syn-25a6b1a6=1",
+   "summary": "Letter addressed to prime minister says approving the project would ‘permanently damage our climate credentials’",
+   "published_at": "2026-11-27T10:21:13"
+  },
+  {
+   "title": "Ladbrokes owner to settle Australia money laundering case",
+   "link": "https://www.ft.com/content/5fe8a858-6ed2-40f0-a0f3-e8742b7656aa?syn-25a6b1a6=1",
+   "summary": "Entain agrees preliminary settlement with financial crimes watchdog for $124mn over breaches of rules ahead of court hearing",
+   "published_at": "2026-11-27T09:51:44"
+  },
+  {
+   "title": "Chinese shares soar after Beijing signals more support",
+   "link": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
+   "summary": "Biggest one-day rise for CSI 300 index in two years following months of weakness",
+   "published_at": "2026-11-27T08:32:35"
+  },
+  {
+   "title": "‘It’s not nation versus nation. It’s hyperscaler versus hyperscaler’",
+   "link": "https://www.ft.com/content/698d29bd-490b-41ef-a3e3-20edc2b591f7?syn-25a6b1a6=1",
+   "summary": "Mining billionaire Robert Friedland on copper and war",
+   "published_at": "2026-11-27T06:30:02"
+  },
+  {
+   "title": "Private credit’s ‘alpha’ problem",
+   "link": "https://www.ft.com/content/364fece7-4303-4ed9-afc9-47e953bd4e9f",
+   "summary": "Can direct lending really be replicated in public markets? Yes",
+   "published_at": "2026-11-27T06:00:02"
+  },
+  {
+   "title": "Venezuelan oil magnate defends contentious deal with Trump",
+   "link": "https://www.ft.com/content/2586bde3-a1e1-463c-b5fc-0775e8512d28?syn-25a6b1a6=1",
+   "summary": "Alejandro Betancourt tells FT he welcomes scrutiny of agreement that hands huge share of country’s crude supply to US",
+   "published_at": "2026-11-27T05:01:01"
+  },
+  {
+   "title": "Kirkland & Ellis under fire from private equity backers over sell-to-yourself deals",
+   "link": "https://www.ft.com/content/5cc534e6-d461-4fc7-a744-b938e54eee1d?syn-25a6b1a6=1",
+   "summary": "Lawyers say contracts for so-called continuation vehicles remove investors’ right to sue in event of dispute",
+   "published_at": "2026-11-27T05:00:23"
+  },
+  {
+   "title": "Kalshi’s next big bet: ‘microinsurance’ for small businesses",
+   "link": "https://www.ft.com/content/587198a8-ac15-46b2-83f2-f6e181ccd7cd?syn-25a6b1a6=1",
+   "summary": "Platform hopes growth in more conventional financial services will help offset loss of business in sports wagers, which face mounting legal threats",
+   "published_at": "2026-11-27T05:00:13"
+  },
+  {
+   "title": "Roughnecks lose out to AI as automation in the oil industry gathers pace",
+   "link": "https://www.ft.com/content/da45883c-6612-4071-b363-a826c6edb085?syn-25a6b1a6=1",
+   "summary": "Artificial intelligence is helping to drill wells faster and replacing workers in some of the most dangerous jobs",
+   "published_at": "2026-11-27T05:00:04"
+  },
+  {
+   "title": "Big Oil looks to diversify with move into electricity generation",
+   "link": "https://www.ft.com/content/0f537b6e-7426-43a1-b82c-4e444335507b?syn-25a6b1a6=1",
+   "summary": "Data centre power demand offers new opportunity for fossil fuel producers, while others look to grow their carbon capture businesses",
+   "published_at": "2026-11-27T05:00:04"
+  },
+  {
+   "title": "What's a fund manager to do?",
+   "link": "https://www.ft.com/content/ff2a3ebf-d9be-45f6-95e0-00cc67e7c49e?syn-25a6b1a6=1",
+   "summary": "A guide to navigating tempestuous markets",
+   "published_at": "2026-11-26T21:00:00"
+  },
+  {
+   "title": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+   "link": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae?syn-25a6b1a6=1",
+   "summary": "Breakthroughs in mathematics have stoked fears that data across financial systems is under threat",
+   "published_at": "2026-11-26T17:13:40"
+  },
+  {
+   "title": "Global stocks climb after volatile US trading over AI risks",
+   "link": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+   "summary": "Tech shares hit this month by fears over whether boom can be sustained",
+   "published_at": "2026-11-26T16:49:54"
+  },
+  {
+   "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
+   "link": "https://www.ft.com/content/3890f725-66dd-4613-8a60-d9e3ea38d25a?syn-25a6b1a6=1",
+   "summary": "Inflation is top concern for US central bank officials even as tech-led sell-off triggers fears for economy",
+   "published_at": "2026-11-26T14:58:45"
+  }
+ ]
+}
